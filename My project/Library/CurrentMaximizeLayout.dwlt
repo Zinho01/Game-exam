@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 4627
+  controlID: 31950
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 4628
+  controlID: 31951
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,9 +202,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.063149124, y: -0.16536921, z: -3.235729}
+    m_Target: {x: -1.4114093, y: -0.09607331, z: -0.6019903}
     speed: 2
-    m_Value: {x: 0.063149124, y: -0.16536921, z: -3.235729}
+    m_Value: {x: -1.4114093, y: -0.09607331, z: -0.6019903}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -255,9 +255,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.170861
+    m_Target: 4.883474
     speed: 2
-    m_Value: 2.170861
+    m_Value: 4.883474
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16498
+  m_LastSelectedObjectID: 37852
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 4649
+  controlID: 31864
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -480,7 +480,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_ExpandedIDs: 6c93ffff5aa9ffff90a9ffff5ab3ffffa6bbffff5acfffff8ccfffff42fbffff20400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,21 +568,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Prefabs
   m_LastFoldersGridSize: 49
   m_LastProjectPath: C:\Users\jairw\Desktop\GIT\GITHUB\Game-exam\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 58410000
-    m_LastClickedID: 16728
+    m_SelectedIDs: 52410000
+    m_LastClickedID: 16722
     m_ExpandedIDs: 000000004c41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -636,10 +636,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44e0ffff
-    m_LastClickedInstanceID: -8124
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 22410000
+    m_SelectedInstanceIDs: 72400000
+    m_LastClickedInstanceID: 16498
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 2241000020410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -724,7 +724,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -8124
+  m_LastInspectedObjectInstanceID: 16498
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
