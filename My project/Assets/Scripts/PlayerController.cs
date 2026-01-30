@@ -21,10 +21,13 @@ public class PlayerController : MonoBehaviour
     public float airTimeCounter;
     
     private Animator theAnimator;
+    public GameManager theGM;
+    private LivesManager theLM;
     
     // Start is called before the first frame update
     void Start()
     {
+        theLM = FindObjectOfType<LivesManager>();
         theRB2D = GetComponent<Rigidbody2D>();
         theAnimator = GetComponent<Animator>();
         airTime = airTimeCounter;
@@ -109,6 +112,8 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Spike")
         {
             Debug.Log("Ouch!");
+            theGM.Reset();
+            theLM.TakeLife();
         }
     }
 }
