@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 { 
     public float speed;
+    public float dfltSpeed;
     public float jumpForce;
     private bool canMove; 
     private Rigidbody2D theRB2D;
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour
         theRB2D = GetComponent<Rigidbody2D>();
         theAnimator = GetComponent<Animator>();
         airTime = airTimeCounter;
+        dfltSpeed = speed;
         
     }
 

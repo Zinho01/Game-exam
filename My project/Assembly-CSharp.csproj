@@ -53,9 +53,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Menus.cs" />
+     <Compile Include="Assets\Scripts\PlatformPatrol.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\LifeUp.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\GroundPatrol.cs" />
      <Compile Include="Assets\Scripts\GoalPole.cs" />
+     <Compile Include="Assets\Scripts\SpeedBoots.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\LivesManager.cs" />
  <Reference Include="UnityEngine">
