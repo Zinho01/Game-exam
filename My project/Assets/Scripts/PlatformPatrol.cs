@@ -25,7 +25,12 @@ public class PlatformPatrol : MonoBehaviour
 
     private void FixedUpdate()
     {
-        RaycastHit2D contactCheck = Physics2D.Raycast(contactChecker.position, Vector2.down, rayLength);
+        // negeer player
+        int layerMask = 1 << 9;
+        layerMask = ~layerMask;
+
+        RaycastHit2D contactCheck = Physics2D.Raycast(contactChecker.position, Vector2.down, rayLength, layerMask);
+        
 
         if (contactCheck.collider == false)
         {

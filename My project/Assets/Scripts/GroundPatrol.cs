@@ -25,7 +25,11 @@ public class GroundPatrol : MonoBehaviour
 
     private void FixedUpdate()
     {
-        RaycastHit2D contactCheck = Physics2D.Raycast(contactChecker.position, Vector2.left, rayLength);
+        // negeer player
+        int layerMask = 1 << 9;
+        layerMask = ~layerMask;
+
+        RaycastHit2D contactCheck = Physics2D.Raycast(contactChecker.position, Vector2.left, rayLength, layerMask);
 
         if (contactCheck.collider == true)
         {
